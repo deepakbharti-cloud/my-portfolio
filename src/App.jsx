@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import { Github, Mail, ExternalLink, Menu, X, MapPin, GraduationCap, Briefcase } from "lucide-react";
 
-/* ============================================================
+/* =======================================================
    DEEPAK BHARTI — PORTFOLIO
    Design concept: architectural / engineering "blueprint sheet"
    — fits a backend+AI developer whose flagship projects touch
