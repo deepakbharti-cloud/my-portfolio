@@ -14,6 +14,7 @@ import {
   Check,
   ArrowUp,
   Award,
+  Linkedin,
 } from "lucide-react";
 
 /* ============================================================
@@ -107,6 +108,7 @@ const EMAIL = "deepak28609@gmail.com";
 const PHONE = "9120041854";
 const LOCATION = "Chauri Chaura, Gorakhpur, UP";
 const RESUME_URL = "/resume.pdf";
+const LINKEDIN_URL = "https://www.linkedin.com/in/deepak-bharti-ab7622315";
 
 /* ---------- Scroll reveal ---------- */
 function useReveal() {
@@ -749,6 +751,26 @@ export default function Portfolio() {
               </SpotlightCard>
               <SpotlightCard
                 className="rounded-sm"
+                style={{ background: TOKENS.panel, border: `1px solid ${TOKENS.border}` }}
+                glowColor={TOKENS.cyan}
+              >
+                <a
+                  href="https://www.linkedin.com/in/deepak-bharti-ab7622315"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 p-5"
+                >
+                  <Linkedin size={18} color={TOKENS.cyan} />
+                  <div>
+                    <p className="text-sm" style={{ color: TOKENS.text }}>LinkedIn</p>
+                    <p className="mono text-xs" style={{ color: TOKENS.muted }}>deepak-bharti</p>
+                  </div>
+                </a>
+              </SpotlightCard>
+
+
+              <SpotlightCard
+                className="rounded-sm sm:col-span-2"
                 style={{ background: TOKENS.panel, border: `1px solid ${TOKENS.border}` }}
                 glowColor={TOKENS.cyan}
               >
