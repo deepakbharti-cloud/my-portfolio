@@ -6,7 +6,7 @@
 3. Open the URL shown in terminal (usually http://localhost:5173)
 
 ## Before deploying
-- Update the email placeholder in src/App.jsx (search for "your.email@example.com")
+- Update the email placeholder in src/App.jsx (search for "deepak28609@gmail.com")
 - Update the SmartBuild Hub demo link if needed (search for "demo:")
 
 ## Build for production
